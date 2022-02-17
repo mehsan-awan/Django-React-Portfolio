@@ -4,11 +4,11 @@ from rest_framework import routers
 
 from . import views
 
-# router = routers.DefaultRouter()
-# router.register(r'', views.MyApiViews)
+router = routers.DefaultRouter()
+router.register(r'', views.MyApiViews, basename='Portfolio')
 
 urlpatterns = [
     # path("save/", views.savedata, name="savedata"),
-    # path('', include(router.urls)),
-    path('get/', views.MyApiViews.as_view()),
+    path('<str:id>/', include(router.urls)),
+    # path('get/', views.MyApiViews.as_view()),
 ]
