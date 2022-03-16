@@ -1,6 +1,9 @@
 from django.shortcuts import render
 from rest_framework import status
+from rest_framework.authentication import TokenAuthentication
+from rest_framework.decorators import api_view, authentication_classes, permission_classes
 from rest_framework.parsers import JSONParser
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_mongoengine import viewsets
@@ -13,12 +16,14 @@ from django.http import JsonResponse
 # Create your views here.
 
 
+# Class Based Views
+
 class MyApiViews(viewsets.ModelViewSet):
     queryset = Portfolio.objects.all()
     serializer_class = PortfolioSerializer
 
     def get(self, request, id):
-        queryset = Portfolio.objects.get(id=id)
+        queryset = Portfolio.objects.all()
 
         serializer = PortfolioSerializer(queryset, many=True)
         return Response(serializer.data)
@@ -36,6 +41,7 @@ class MyApiViews(viewsets.ModelViewSet):
         return JsonResponse(portfolio_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
+# Save Data for 1st time
 """
 def savedata(request):
     # nested_doc = MyNestedDoc(
@@ -112,10 +118,10 @@ def savedata(request):
                     )
     doc.save()
     return JsonResponse({"doc": "test"})
-    
+
 """
-#
-#
+
+
 # def test1(request):
 #     doc = MyDocument.objects.all()
 #     # print(type(doc))
@@ -123,3 +129,5 @@ def savedata(request):
 #     for i in doc:
 #         print(i.key.value2["blah1"])
 #     return JsonResponse({"doc": "test"})
+
+

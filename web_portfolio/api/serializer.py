@@ -13,5 +13,3 @@ class PortfolioSerializer(serializers.DocumentSerializer):
         self._kwargs["partial"] = True
         return super().validate(attrs)
 
-
-

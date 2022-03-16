@@ -2,9 +2,8 @@ from django.db import models
 from mongoengine import *
 
 
-# from djangotoolbox import
-
 # Create your models here.
+
 
 class PersonalDetails(EmbeddedDocument):
     name = StringField()
@@ -27,7 +26,7 @@ class Portfolio(Document):
     profession = StringField()
     quote = StringField()
     image = StringField()
-    email = StringField()
+    email = EmailField()
     address = StringField()
     interests = ListField()
     accounts = DictField()

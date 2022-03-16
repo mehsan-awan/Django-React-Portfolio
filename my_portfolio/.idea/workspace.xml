@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1985943-10ef-40d5-ae9a-1d324c253a86" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../web_portfolio/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../web_portfolio/api/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_portfolio/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../web_portfolio/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_portfolio/api/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../web_portfolio/api/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_portfolio/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../web_portfolio/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_portfolio/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../web_portfolio/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_portfolio/web_portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../web_portfolio/web_portfolio/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="265ZLAvigRiw88TFUhCRajiVWQr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1985943-10ef-40d5-ae9a-1d324c253a86" name="Changes" comment="" />
+      <created>1646715350461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646715350461</updated>
+    </task>
+    <servers />
+  </component>
+</project>
